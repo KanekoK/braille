@@ -7,11 +7,9 @@ def converter(text):
 	result = '\n\n'.join(word_list)
 	return result
 
-
 def main():
 	text = input("Text：")
 	print(converter(text))
 
 if __name__ == '__main__':
 	main()
-
